@@ -3,6 +3,9 @@ package com.company.thejava.defaultandstaticmethod;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * 잔디가 안심어진다...???
+ */
 public class Java8App {
     public static void main(String[] args) {
         List<String> name = new ArrayList<>();
@@ -38,6 +41,7 @@ public class Java8App {
          *  Comparator 에도 함수형 인터페이스 쓸 수 있다!!
          */
         name.sort(String::compareToIgnoreCase);
+        System.out.println("잔디");
     }
 
 
