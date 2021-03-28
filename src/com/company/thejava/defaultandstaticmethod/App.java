@@ -7,4 +7,6 @@ public class App {
         foo.printNameUpperCase();
     }
 
+    // git commit test
+
 }
