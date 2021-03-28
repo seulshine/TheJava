@@ -1,5 +1,7 @@
 package com.company.thejava.stream;
 
+import com.company.thejava.optional.Progress;
+
 public class OnlineClass {
     private Integer id;
     private String title;
@@ -34,4 +36,5 @@ public class OnlineClass {
     public void setClosed(boolean closed) {
         this.closed = closed;
     }
+
 }
