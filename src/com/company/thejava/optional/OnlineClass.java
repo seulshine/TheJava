@@ -53,10 +53,24 @@ public class OnlineClass {
             throw new IllegalStateException();
         }
          */
-        return Optional.ofNullable(progress);
+
+
+        return Optional.ofNullable(progress); // ofNullable 은 Null 을 박스(Optional에 넣을 수 있다. 그냥 of이면 Null Exception
     }
 
     public void setProgress(Progress progress) {
         this.progress = progress;
     }
+
+    /**
+     * Optional를 parameter 로 사용하는 걸 권장하지 않는다.
+     * 가능 하지만 어차피 null이 들어올 수 있어 null 체크를 해야 하고
+     * 오히려 더 번거로운 null 체크를 한다.
+     * @param progress
+
+    public void setProgress(Optional<Progress> progress) {
+        intellij 는 Optional 인데 왜 null 체크 하냐고 뭐라 함!
+        그치만 여기선 해야 하는데 ..굳이 optional 사용할 필요 없다.
+    }
+     */
 }

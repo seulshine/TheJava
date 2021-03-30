@@ -1,7 +1,5 @@
 package com.company.thejava.stream;
 
-import com.company.thejava.optional.Progress;
-
 public class OnlineClass {
     private Integer id;
     private String title;
