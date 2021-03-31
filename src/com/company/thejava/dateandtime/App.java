@@ -26,7 +26,7 @@ public class App {
          */
         System.out.println(after3seconds); // 3초 이전의 값으로 변경할 수 있다.
 
-        Calendar yeseulBirthday = new GregorianCalendar(1996, Calendar.NOVEMBER,9); // 10이라 입력하면 0부터 시작하기에 11월로 인식한다.
+        Calendar yeseulBirthday = new GregorianCalendar(1996, Calendar.OCTOBER,9); // 10이라 입력하면 0부터 시작하기에 11월로 인식한다.
 
         /**
          * 위에 거에 대한 API인데 int 이기 때문에 아무 값이나 들어올 수 있다. -100 도 가능... type safe 하지 않다.
